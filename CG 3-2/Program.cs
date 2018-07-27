@@ -14,10 +14,11 @@ namespace CG_3_2
             Console.WriteLine("Let's begin.");
 
             string guess = Console.ReadLine();
-            int number = Convert.ToInt32(guess);
-
-
+            
             string message = (guess == "8") ? "You win!" : "You Lose!";
+
+            Console.WriteLine(message);
+
 
             Console.ReadLine();
 
